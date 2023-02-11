@@ -125,9 +125,11 @@ Go to https://docs.github.com/en/authentication/connecting-to-github-with-ssh to
 
 #### Prepare Dev folder
 All of this project file will be store in `/Users/wolves_team` folder. If it doesn't exist, please follow below step to create.
-Create folder for Dev on both MacOS and Ubuntu
+Create and grant permission for Dev folder on both MacOS and Ubuntu
 ```
 sudo mkdir /Users/wolves_team
+sudo chown -R <user_name>:<group_name> /Users/wolves_team
+sudo chmod o-rwx /Users/wolves_team
 ```
 go to new folder
 ```
