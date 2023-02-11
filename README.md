@@ -192,8 +192,7 @@ pip install -e .
 
 #### Start project
 
-On Dev
-
-```
-flask --app flaskr --debug run
-```
+ - On Dev (http://localhost:5000/hello)
+   ```
+   flask --app flaskr --debug run
+   ```
