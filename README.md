@@ -124,18 +124,26 @@ brew install asdf
 Go to https://docs.github.com/en/authentication/connecting-to-github-with-ssh to set up SSH for Github connection
 
 #### Prepare Dev folder
-All of this project file will be store in `/Users/any_team` folder. If it doesn't exist, please follow below step to create.
+All of this project file will be store in `/Users/wolves_team` folder. If it doesn't exist, please follow below step to create.
 Create folder for Dev on both MacOS and Ubuntu
 ```
-sudo mkdir /Users/any_team
+sudo mkdir /Users/wolves_team
 ```
 go to new folder
 ```
-cd /Users/any_team
+cd /Users/wolves_team
+```
+create `wt-repos` folder
+```
+mkdir wt-repos
+```
+go to `wt-repos` folder
+```
+cd wt-repos
 ```
 
 #### Download Source Code
 Run below command to clone project source code
 ```
-git@github.com:trantanhdev/any_project.git
+git clone git@github.com:Wolves-Team/any_project.git
 ```
