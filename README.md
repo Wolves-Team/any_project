@@ -156,8 +156,6 @@ Create and grant permission for Dev folder on both MacOS and Ubuntu
 
 ```
 mkdir ~/wolves_team
-chown -R <user_name>:<group_name> ~/wolves_team
-chmod o-rwx ~/wolves_team
 ```
 
 go to new folder
