@@ -155,9 +155,9 @@ All of this project file will be store in `/Users/wolves_team` folder. If it doe
 Create and grant permission for Dev folder on both MacOS and Ubuntu
 
 ```
-sudo mkdir ~/wolves_team
-sudo chown -R <user_name>:<group_name> ~/wolves_team
-sudo chmod o-rwx ~/wolves_team
+mkdir ~/wolves_team
+chown -R <user_name>:<group_name> ~/wolves_team
+chmod o-rwx ~/wolves_team
 ```
 
 go to new folder
