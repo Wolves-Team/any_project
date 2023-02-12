@@ -16,9 +16,10 @@
         <li>
           <a href="#prerequisites">Prerequisites</a>
           <ul>
-            <li><a href="#install-git">Install Git</a></li>
-            <li><a href="#install-asdf">Install asdf</a></li>
-            <li><a href="#install-python">Install Python</a></li>
+            <li><a href="#git">Git</a></li>
+            <li><a href="#asdf">asdf</a></li>
+            <li><a href="#=python">Python</a></li>
+            <li><a href="#=nodejs">Node.js</a></li>
           </ul>
         </li>
       </ul>
@@ -68,7 +69,7 @@ Switch default shell to zsh
 chsh -s /usr/bin/zsh
 ```
 
-#### Install Git
+#### Git
 
 On MacOS via Homebrew
 
@@ -82,28 +83,27 @@ On Ubuntu
 apt-get install git
 ```
 
-### Install asdf
+#### asdf
 
 [asdf](https://asdf-vm.com/) is:
 
 - CLI tools for managing software
 - Handle multiversion of software (Python, Java, Elixir, etc.)
 
-#### Install asdf on MacOS via Homebrew
+ - Install asdf on MacOS via Homebrew
 
-Open terminal and run below command
+   Open terminal and run below command
 
-```
-brew install asdf
-```
+   ```
+   brew install asdf
+   ```
 
-#### Install asdf on Linux via apt
+ - Install asdf on Linux via apt
+   ```
 
-```
+   ```
 
-```
-
-#### Install Python
+#### Python
 
 - Run below to install asdf python plugin
   ```
@@ -136,6 +136,14 @@ brew install asdf
   installed python information shoudld be display
 
   <img width="629" alt="Screen Shot 2023-02-08 at 22 29 40" src="https://user-images.githubusercontent.com/57919723/217718182-5445f52e-94a9-4f08-b0f9-b215efbcb307.png">
+
+#### Node.js
+Install Node.js
+```
+asdf plugin add nodejs https://github.com/asdf-vm/asdf-nodejs.git
+asdf install nodejs 19.6.0
+asdf global nodejs 19.6.0
+```
 
 ### Installation
 
