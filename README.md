@@ -99,9 +99,7 @@ apt-get install git
    ```
 
  - Install asdf on Linux via apt
-   ```
-
-   ```
+   Follow instructions of [this link](https://asdf-vm.com/guide/getting-started.html)
 
 #### Python
 
