@@ -187,14 +187,16 @@ git clone git@github.com:Wolves-Team/any_project.git
 ```
 
 #### Install Required Python package
-
-Run below command to create `venv` and install required Python
-
-```
-python3 -m venv venv
-. venv/bin/activate
-pip install -e .
-```
+ - Go to projec root folder
+   ```
+   cd ~/wolves_team/wt-repos/any_project
+   ```
+ - Run below command to create `venv` and install required Python
+   ```
+   python3 -m venv venv
+   . venv/bin/activate
+   pip install -e .
+   ```
 
 #### Start project
 
