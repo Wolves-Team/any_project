@@ -155,15 +155,15 @@ All of this project file will be store in `/Users/wolves_team` folder. If it doe
 Create and grant permission for Dev folder on both MacOS and Ubuntu
 
 ```
-sudo mkdir /Users/wolves_team
-sudo chown -R <user_name>:<group_name> /Users/wolves_team
-sudo chmod o-rwx /Users/wolves_team
+sudo mkdir ~/wolves_team
+sudo chown -R <user_name>:<group_name> ~/wolves_team
+sudo chmod o-rwx ~/wolves_team
 ```
 
 go to new folder
 
 ```
-cd /Users/wolves_team
+cd ~/wolves_team
 ```
 
 create `wt-repos` folder
