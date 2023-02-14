@@ -43,6 +43,15 @@ Project for our crazy ideals
 
 ### Built With
 
+#### Back-end:
+ - Python
+ - Flask Framework
+ - Jinja template engine
+#### Front-end:
+ - HTML
+ - CSS
+ - Javascript
+
 ## Getting Started
 
 Follow these instructions to install and run this project on your localhost
