@@ -28,9 +28,4 @@ def create_app(test_config=None):
   def index():
     return render_template('/index.html.jinja')
 
-  # a simple page that says hello
-  @app.route('/hello')
-  def hello():
-    return 'Hello, World 3'
-
   return app
