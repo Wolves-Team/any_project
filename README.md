@@ -18,8 +18,8 @@
           <ul>
             <li><a href="#git">Git</a></li>
             <li><a href="#asdf">asdf</a></li>
-            <li><a href="#=python">Python</a></li>
-            <li><a href="#=nodejs">Node.js</a></li>
+            <li><a href="#python">Python</a></li>
+            <li><a href="#nodejs">Node.js</a></li>
           </ul>
         </li>
       </ul>
@@ -32,6 +32,19 @@
             <li><a href="#download-source-code">Download source code</a></li>
           </ul>
         </li>        
+      </ul>
+    </li>
+    <li>
+      <a href="#development">Development</a>
+      <ul>
+        <li>
+          <a href="#coding-convention">Coding Covention</a>
+          <ul>
+            <li>
+              <a href="#commit-message-convention">Commit Message Convention</a>
+            </li>
+          </ul>
+        </li>
       </ul>
     </li>
   </ol>
@@ -211,3 +224,15 @@ git clone git@github.com:Wolves-Team/any_project.git
    ```
    flask --app flaskr --debug run
    ```
+
+## Development
+
+### Coding Convention
+
+#### Commit Message Convention
+Follow https://www.conventionalcommits.org/en/v1.0.0/
+
+Below custom commit message prefix:
+  - view: for general front-end template changes
+  - js: for javascript changes
+  - styles: for styles for css,etc.. changes
