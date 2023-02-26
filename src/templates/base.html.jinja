@@ -5,21 +5,22 @@
 </head>
 
 <body>
-  <nav>
-    NAV
-  </nav>
-
-  <div>
-    <header>
-      {% block header %}{% endblock %}
-    </header>
-    <div>
-      {% block content %}{% endblock %}
-    </div>
+  <div class="page-container">
     <script src="http://127.0.0.1:35729/livereload.js"></script>
-  </div>
+    <nav>
+      NAV
+    </nav>
 
-  <footer>
+    <div class="content-wrap">
+      <header>
+      {% block header %}{% endblock %}
+      </header>
+      <div>
+      {% block content %}{% endblock %}
+      </div>
+    </div>
+    <footer>
     FOOTER
-  </footer>
+    </footer>
+  </div>
 </body>
