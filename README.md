@@ -214,7 +214,11 @@ git clone git@github.com:Wolves-Team/any_project.git
  - Run below command to create `venv` and install required Python
    ```
    python3 -m venv venv
+   ```
+   ```
    . venv/bin/activate
+   ```
+   ```
    pip install -e .
    ```
 
@@ -226,6 +230,16 @@ git clone git@github.com:Wolves-Team/any_project.git
    ```
 
 ## Development
+
+### Run on Dev
+  - Activate venv
+  ```
+  . venv/bin/activate
+  ```
+  - Run with livereload server
+  ```
+  python livereload_server.py
+  ```
 
 ### Coding Convention
 
