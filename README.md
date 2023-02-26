@@ -38,6 +38,9 @@
       <a href="#development">Development</a>
       <ul>
         <li>
+          <a href="#run-with-livereload">Run With Livereload</a>
+        </li>
+        <li>
           <a href="#coding-convention">Coding Covention</a>
           <ul>
             <li>
@@ -211,7 +214,7 @@ git clone git@github.com:Wolves-Team/any_project.git
    ```
    cd ~/wolves_team/wt-repos/any_project
    ```
- - Run below command to create `venv` and install required Python
+ - Run below commands to create `venv` and install required Python
    ```
    python3 -m venv venv
    ```
@@ -231,12 +234,16 @@ git clone git@github.com:Wolves-Team/any_project.git
 
 ## Development
 
-### Run on Dev
-  - Activate venv
+### Run With Livereload
+
+#### Activate venv
+  
   ```
   . venv/bin/activate
   ```
-  - Run with livereload server
+  
+#### Run with livereload server
+  
   ```
   python livereload_server.py
   ```
