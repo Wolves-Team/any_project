@@ -164,7 +164,11 @@ apt-get install git
 Install Node.js
 ```
 asdf plugin add nodejs https://github.com/asdf-vm/asdf-nodejs.git
+```
+```
 asdf install nodejs 19.6.0
+```
+```
 asdf global nodejs 19.6.0
 ```
 
