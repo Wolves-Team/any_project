@@ -41,6 +41,9 @@
           <a href="#run-with-livereload">Run With Livereload</a>
         </li>
         <li>
+          <a href="#run-frontend-development-server">Run Frontend Development Server</a>
+        </li>
+        <li>
           <a href="#coding-convention">Coding Covention</a>
           <ul>
             <li>
@@ -66,7 +69,9 @@ Project for our crazy ideals
 #### Front-end:
  - HTML
  - CSS
- - Javascript
+ - Typescript
+ - ReactJS
+ - Vite
 
 ## Getting Started
 
@@ -251,6 +256,22 @@ git clone git@github.com:Wolves-Team/any_project.git
   ```
   python livereload_server.py
   ```
+
+### Run frontend development server
+From the root folder of project
+```
+cd frontend
+```
+Install front end dependencies
+```
+npm install
+```
+Start front end server
+```
+npm run dev
+```
+
+
 
 ### Coding Convention
 
