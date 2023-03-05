@@ -2,7 +2,6 @@ from livereload import Server
 from flaskr import create_app
 
 app = create_app()
-app.debug = True
 
 def main():
   print("Start server with livereload")
